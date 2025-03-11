@@ -16,9 +16,29 @@ acknowledgement: The authors are grateful to the St Jude Children’s Research H
   R.T. was supported by the Life Sciences Research Foundation Fellowship (sponsored
   by Astellas Pharma) and JSPS Overseas Research Fellowship.
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 852048840
+  numberOfCells: 25
+  numberOfFiles: 25
+  numberOfSamples: 25
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CurrentClampSeries
+  - CurrentClampStimulusSeries
 citation: Klein, Peter (2025) Hippocampal neuronal responses to programmable antigen-gated
   G-protein-coupled engineered receptor activation (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/001354/draft
