@@ -3,9 +3,18 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about:
+- {}
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: The authors are grateful to the St Jude Children’s Research Hospital
+  Collaborative Research Consortium on GPCRs, the Chan Zuckerberg Biohub–San Francisco,
+  Phil and Penny Knight Initiative for Brain Resilience (KIG-104), Stanford Cancer
+  Institute, Wu Tsai Neurosciences Institute of Stanford University and the NIH (MH135934
+  to A.Y.T. and I.S., F32CA257159 to N.A.K., NS121106 to I.S.) for funding this work.
+  R.T. was supported by the Life Sciences Research Foundation Fellowship (sponsored
+  by Astellas Pharma) and JSPS Overseas Research Fellowship.
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -25,18 +34,31 @@ dateCreated: '2025-03-06T01:32:11.648954+00:00'
 description: This dataset contains single cell electrophysiological recordings of
   mouse hippocampal CA1 neurons in response to activation of programmable antigen-gated
   G-protein-coupled engineered receptors. Recorded neurons were transfected with an
-  AAV1/2-hSyn-α-mCherry-PAGER-Gi-P2A-mEGFP and responses were then recorded in response
-  to DCZ (100 nM) or DCZ + soluble mCherry (1 μM) application.
+  AAV1/2-hSyn-a-mCherry-PAGER-Gi-P2A-mEGFP and responses were then recorded in response
+  to DCZ (100 nM) or DCZ + soluble mCherry (1 uM) application.
+ethicsApproval: []
 id: DANDI:001354/draft
 identifier: DANDI:001354
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001354/versions/draft/assets/
 name: Hippocampal neuronal responses to programmable antigen-gated G-protein-coupled
   engineered receptor activation
+protocol: []
+relatedResource:
+- identifier: https://doi.org/10.1038/s41586-024-08282-3
+  name: Synthetic GPCRs for programmable sensing and control of cell behaviour
+  relation: dcite:IsPublishedIn
+  repository: Nature
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41586-024-08282-3
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001354/draft
 version: draft
+wasGeneratedBy: []
