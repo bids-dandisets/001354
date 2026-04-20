@@ -4,7 +4,9 @@
     "HEDVersion": "8.3.0",
     "Description": "This dataset contains single cell electrophysiological recordings of mouse hippocampal CA1 neurons in response to activation of programmable antigen-gated G-protein-coupled engineered receptors. Recorded neurons were transfected with an AAV1/2-hSyn-a-mCherry-PAGER-Gi-P2A-mEGFP and responses were then recorded in response to DCZ (100 nM) or DCZ + soluble mCherry (1 uM) application.\n\nThe authors are grateful to the St Jude Children\u2019s Research Hospital Collaborative Research Consortium on GPCRs, the Chan Zuckerberg Biohub\u2013San Francisco, Phil and Penny Knight Initiative for Brain Resilience (KIG-104), Stanford Cancer Institute, Wu Tsai Neurosciences Institute of Stanford University and the NIH (MH135934 to A.Y.T. and I.S., F32CA257159 to N.A.K., NS121106 to I.S.) for funding this work. R.T. was supported by the Life Sciences Research Foundation Fellowship (sponsored by Astellas Pharma) and JSPS Overseas Research Fellowship.",
     "DatasetType": "raw",
-    "Authors": [],
+    "Authors": [
+        "Klein, Peter"
+    ],
     "License": "CC-BY-4.0",
     "GeneratedBy": [
         {
